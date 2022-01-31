@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title >Banca Epicode</title>
+
+</head>
+<h1> Benvenuto in Banca Epicode.</h1>
+<body style="background-color: lightblue" topmargin="20%">
+
+<form method="POST" action="http://localhost:8080/bancomatvirtuale/servletcontocorrente" style="background-color: activecaption;" > 
+
+          		<h3> Numero conto:<br><br><input type="number" name="numeroconto" min="100" max="103"><br><br></h3>
+            	
+            	<h3>Scegli la tua operazione:<br><br></h3>
+            	
+		<select  size="1" name="operazione" >
+		<option  value="1">Visiona saldo</option>
+    	<option value="2">Preleva</option>
+    	<option value="3" >Versa</option>
+				</select><br><br>
+           		 <h3>Euro:</h3><input type="number" name="euro" required="required"><br><br>
+            	<input size="25px" type="submit" value="Invia" style="background-color: slategrey" ><br>
+        		</form>
+      
+
+</body>
+</html>
